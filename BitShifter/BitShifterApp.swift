@@ -15,7 +15,8 @@ struct BitShifterApp: App {
         WindowGroup {
             ContentView()
                 .frame(minWidth: 250, minHeight: 300)
-
+            
+// ********** This feature will be added in a later version **********
 //                .sheet(isPresented: $show) {
 //                    show = false
 //                } content: {
@@ -40,6 +41,8 @@ struct BitShifterApp: App {
 //                    print("State: \(show)")
 //                }
 //            }
+            
+// *********************************************************************
         }
     }
 }
